@@ -23,4 +23,7 @@ result = load_multiple_yamls('file1.yaml', 'file2.yaml')
 print(result)
 a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv
 
+c = 1
+d= 2
+
 b = ghp_kjggXir38asdiV3Hartu9hRy1OadcR0uXdsb

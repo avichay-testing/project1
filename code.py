@@ -12,6 +12,11 @@ fetch_zip_files('http://example.com/archive.zip')
 
 
 def load_multiple_yamls(*file_paths):
+
+
+
+
+    
     combined_data = {}
     for file_path in file_paths:
         with open(file_path, 'r') as yaml_file:

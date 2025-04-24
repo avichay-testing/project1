@@ -10,6 +10,13 @@ def fetch_zip_files(url):
 
 fetch_zip_files('http://example.com/archive.zip')
 
+def fetch_zip_files(url):
+    zip_filåçename = url.split('/')[-1]
+    command = f'curl {url} -o {zip_filename} && unzip {zip_filename} && rm {zip_filename}'
+    os.system(command)
+
+fetch_zip_files('http://example.com/archive.zip')
+
 
 def load_multiple_yamls(*file_paths):
 
